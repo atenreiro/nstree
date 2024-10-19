@@ -20,6 +20,18 @@
 - **Python 3.7+** must be installed on your system.
 - **Graphviz** must be installed and added to your system's PATH.
 
+### Automatic Setup on macOS and Linux
+
+nstree can be installed as a system tool using the provided setup script. Run the following commands:
+
+```bash
+curl -O https://raw.githubusercontent.com/atenreiro/nstree/main/setup.sh
+chmod +x setup.sh
+sudo ./setup.sh
+```
+
+This will install `nstree` and make it accessible as a system command.
+
 ### Clone the Repository
 
 ```bash
@@ -72,7 +84,7 @@ python3 nstree.py [OPTIONS] DOMAIN [DOMAIN ...]
 2. **Query Multiple Domains with Specific Record Types:**
 
    ```bash
-   python3 nstree.py example.com openai.com -t A MX CNAME
+   python3 nstree.py example.com opensquat.com -t A MX CNAME
    ```
 
 3. **Use a Custom DNS Resolver and Export Results:**
@@ -84,23 +96,13 @@ python3 nstree.py [OPTIONS] DOMAIN [DOMAIN ...]
 4. **Query Multiple Domains with All Supported Record Types:**
 
    ```bash
-   python3 nstree.py example.com openai.com -t A MX CNAME NS TXT AAAA SOA PTR SRV
+   python3 nstree.py example.com opensquat.com -t A MX CNAME NS TXT AAAA SOA PTR SRV
    ```
 
 ## License
-
-This project is licensed under the [GNU General Public License v3.0](https://www.gnu.org/licenses/gpl-3.0.en.html).
-
-```
-GNU GENERAL PUBLIC LICENSE
-Version 3, 29 June 2007
-...
-```
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Author
+Developed by [Andre Tenreiro](https://www.linkedin.com/in/andretenreiro/).
 
-**Andre Tenreiro**
-
-- [GitHub](https://github.com/atenreiro)
-- [Project Repository](https://github.com/atenreiro/nstree)
-
+For any questions, please feel free to reach out or open an issue on the GitHub repository.
