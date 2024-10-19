@@ -1,8 +1,8 @@
-# nstree - A simple and visual DNS resolution CLI tool"
+# nstree
 ![nstree](https://img.shields.io/badge/version-1.0-green) ![Python](https://img.shields.io/badge/python-3.x-blue) ![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)
-![alt text](https://github.com/atenreiro/nstree/blob/main/screenshots/nstree.png)
 
 **nstree** is a powerful DNS Resolution Tool that allows you to perform comprehensive DNS queries for multiple domains. It supports various DNS record types and can visualize the DNS resolution hierarchy using Graphviz diagrams. Whether you're troubleshooting DNS issues, analyzing domain configurations, or simply exploring DNS records, `nstree` provides an efficient and user-friendly solution.
+![alt text](https://github.com/atenreiro/nstree/blob/main/screenshots/nstree.png)
 
 ## Features
 
