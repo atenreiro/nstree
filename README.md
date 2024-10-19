@@ -1,4 +1,4 @@
-# nstree
+# nstree - A simple and visual DNS resolution CLI tool"
 ![nstree](https://img.shields.io/badge/version-1.0-green) ![Python](https://img.shields.io/badge/python-3.x-blue) ![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)
 ![alt text](https://github.com/atenreiro/nstree/blob/main/screenshots/nstree.png)
 
