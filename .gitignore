@@ -163,6 +163,3 @@ cython_debug/
 
 # Other files
 *.log
-*.gv
-*.png
-*.pdf
